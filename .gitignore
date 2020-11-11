@@ -31,6 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
-#/service/service_edu/src/main/resources/ logback-spring.xml
-#/service/service_edu/src/main/resources/application.yml
-#/service/service_edu/src/main/resources/logback-spring-dev.xml
+/service/service_edu/src/main/resources/ logback-spring.xml
+/service/service_edu/src/main/resources/application.yml
+/service/service_edu/src/main/resources/logback-spring-dev.xml
