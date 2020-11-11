@@ -102,4 +102,16 @@ public class CourseControlle {
             return R.error().message("课程发布失败");
         }
     }
+    @ApiOperation("我是测试")
+    @GetMapping("course-publish/{id}")
+    public R get人人CoursePublishVoById(@PathVariable(value = "id", required = true) String id) {
+        CourseInfoForm course = courseService.getCourseInfoById(id);
+        CoursePublishVo coursePublishVo = new CoursePublishVo();
+        BeanUtils.copyProperties(course, coursePublishVo);
+        if (coursePublishVo != null) {
+            return R.ok().data("course", coursePublishVo);
+        } else {
+            return R.error().message("课程发布失败");
+        }
+    }
 }
