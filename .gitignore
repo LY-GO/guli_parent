@@ -40,3 +40,5 @@ common/service_base/src/main/resources/
 common/service_base/src/test/
 service/service_oss/src/main/resources/
 service/service_oss/src/test/
+service/service_edu/src/main/resources/
+/service/service_edu/src/main/resources/
