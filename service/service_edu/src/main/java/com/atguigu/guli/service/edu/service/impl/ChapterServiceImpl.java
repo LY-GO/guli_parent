@@ -16,5 +16,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class ChapterServiceImpl extends ServiceImpl<ChapterMapper, Chapter> implements ChapterService {
+    void test() {
 
+    }
 }
